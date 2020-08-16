@@ -1,5 +1,15 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
+        <file>qml/AppScreens/TTAuthPage.qml</file>
+        <file>qml/main.qml</file>
+        <file>qml/AppScreens/TTChatPage.qml</file>
+        <file>qml/SimpleControls/TTTextField.qml</file>
+        <file>qml/Singletons/TTStyle.qml</file>
+        <file>qml/Singletons/qmldir</file>
+        <file>qml/SimpleControls/TTButton.qml</file>
+        <file>qml/SimpleControls/TTPane.qml</file>
+        <file>qml/SimpleControls/TTImage.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>qml/SpecialControls/TTToastPopup.qml</file>
     </qresource>
 </RCC>

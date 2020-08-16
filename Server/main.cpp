@@ -1,9 +1,17 @@
-#include <iostream>
+#include "src/tt.server.h"
 
-using namespace std;
+#include <iostream>
+#include <string>
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    TTServer server;
+
+    server.start();
+
+    while (server.currentState() == TTServer::State::Up) {
+        sleep(1);
+    }
+
     return 0;
 }
